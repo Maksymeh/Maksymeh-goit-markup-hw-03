@@ -1,6 +1,8 @@
 body {
     font-family:"Roboto", sans-serif;
     font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 header {
@@ -83,6 +85,8 @@ padding-right: 332px;
        }
         .page-info {
             background-color: #2E2F42;
+            letter-spacing: 0.02em;
+            line-height: 1.5;
         }
         .page-info-text {
             padding-top: 140px;
@@ -90,5 +94,10 @@ padding-right: 332px;
             color: #F4F4FD;
         }
         .link {
-            color: #F4F4FD;
+            color: #4d5ae5;
+            font-family: "Raleway", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            text-transform:uppercase;
+            
         }
