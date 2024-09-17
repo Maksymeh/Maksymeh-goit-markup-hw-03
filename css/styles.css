@@ -55,6 +55,26 @@ h1 {
     font-size: 48px;
 }
 
+.page-main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2F42;
+    padding: 240px;
+    box-sizing: border-box;
+}
+
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
 .button {
     color: #FFFFFF;
     background-color: #4D5AE5;
@@ -66,11 +86,12 @@ h1 {
     letter-spacing: 0.04em;
     text-align: left;
     box-shadow: 0px 4px 4px 0px #00000026;
+    cursor: pointer;
 }
 
 .button:hover,
-button:focus {
-    cursor: pointer;
+.button:focus {
+    background-color: #404BBF;
 }
 
 .page-overview {
