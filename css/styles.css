@@ -94,10 +94,13 @@ padding-right: 332px;
             color: #F4F4FD;
         }
         .link {
-            color: #4d5ae5;
+            color: #F4F4FD;
             font-family: "Raleway", sans-serif;
             font-weight: 700;
             font-size: 18px;
             text-transform:uppercase;
             
+        }
+        .span-logo {
+            color:#4d5ae5;
         }
