@@ -17,7 +17,11 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: #404bbf;
+}
+
+a:focus {
+    color: #404bbf;
 }
 
 ul {
@@ -34,11 +38,6 @@ ul li {
 .page-contacts {
     display: inline-block;
     padding-right: 332px;
-}
-
-/* Якщо .page-nav-logo не використовується, видали цей клас */
-.page-nav-logo {
-    padding-right: 76px;
 }
 
 .page-main-title {
@@ -60,12 +59,11 @@ h1 {
     color: #FFFFFF;
     background-color: #4D5AE5;
     padding: 16px 32px;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
-    /* Змінив на 0.04em для коректного відображення */
     text-align: left;
     box-shadow: 0px 4px 4px 0px #00000026;
 }
@@ -107,6 +105,7 @@ button:focus {
     color: #F4F4FD;
 }
 
+.logo,
 .span-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -115,19 +114,8 @@ button:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-}
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    /* Колір для логотипу */
 }
 
 .span-logo {
-    color: #f4f4fd;
-    /* Колір для span всередині футера */
+    color: #2e2f42;
 }
