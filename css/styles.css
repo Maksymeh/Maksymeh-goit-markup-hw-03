@@ -1,0 +1,94 @@
+body {
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+}
+
+header {
+    padding-bottom: 24px;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+a:hover {
+    color: blue;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.page-nav, .page-contacts  {
+display: inline-block;
+padding-right: 332px;
+}
+
+.page-nav-logo {
+    padding-right: 76px;
+}
+.page-main-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #2E2F42;
+        padding: 240px;
+        box-sizing: border-box;
+    }
+    h1 {
+        color:#FFFFFF;
+        font-size:48px;
+    }
+    .button {
+        color:#FFFFFF;
+        background-color: #4D5AE5;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        padding-right: 32px;
+        padding-left: 32px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 4%;
+        text-align: left;
+        box-shadow: 0px 4px 4px 0px #00000026;
+        
+    }
+    .button:hover, button:focus {
+        cursor: pointer;
+    }
+
+        .page-overview {
+            display: inline-block;
+        margin-top: 120px;
+        padding-bottom: 240px;
+        background-color: #FFFFFF;
+        margin-right: 20px;
+        }
+        .page-team {
+            background-color: #F4F4FD;
+        }
+       .our-team {
+        display: inline-block;
+       }
+       .page-portfolio {
+        padding-bottom: 120px;
+       }
+        .page-info {
+            background-color: #2E2F42;
+        }
+        .page-info-text {
+            padding-top: 140px;
+            padding-bottom: 100px;
+            color: #F4F4FD;
+        }
+        .link {
+            color: #F4F4FD;
+        }
