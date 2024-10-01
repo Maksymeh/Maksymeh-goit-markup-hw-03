@@ -1,107 +1,69 @@
 body {
-    font-family:"Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #434455;
-    background-color: #FFFFFF;
-}
-
-header {
-    padding-bottom: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
-text-decoration: none;
-color: inherit;
+    text-decoration: none;
+    color: inherit;
+
 }
+
 a:hover {
-    color: blue;
-}
-ul {
-    padding: 0;
-    margin: 0;
+    color: #404bbf;
 }
 
-ul li {
-    display: inline-block;
-    margin-right: 30px;
+.web {
+    color: #4D5AE5;
 }
 
-.page-nav, .page-contacts  {
-display: inline-block;
-padding-right: 332px;
+.studio {
+    color: #2E2F42;
 }
 
-.page-nav-logo {
-    padding-right: 76px;
+ul,
+ol {
+    list-style: none;
 }
-.page-main-title {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #2E2F42;
-        padding: 240px;
-        box-sizing: border-box;
-    }
-    h1 {
-        color:#FFFFFF;
-        font-size:48px;
-    }
-    .button {
-        color:#FFFFFF;
-        background-color: #4D5AE5;
-        padding-bottom: 16px;
-        padding-top: 16px;
-        padding-right: 32px;
-        padding-left: 32px;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 4%;
-        text-align: left;
-        box-shadow: 0px 4px 4px 0px #00000026;
-        
-    }
-    .button:hover, button:focus {
-        cursor: pointer;
-    }
 
-        .page-overview {
-            display: inline-block;
-        margin-top: 120px;
-        padding-bottom: 240px;
-        background-color: #FFFFFF;
-        margin-right: 20px;
-        }
-        .page-team {
-            background-color: #F4F4FD;
-        }
-       .our-team {
-        display: inline-block;
-       }
-       .page-portfolio {
-        padding-bottom: 120px;
-       }
-        .page-info {
-            background-color: #2E2F42;
-            letter-spacing: 0.02em;
-            line-height: 1.5;
-        }
-        .page-info-text {
-            padding-top: 140px;
-            padding-bottom: 100px;
-            color: #F4F4FD;
-        }
-    
-            
-        .span-logo {
-            color:#4d5ae5;
-            color: #F4F4FD;
-                font-family: "Raleway", sans-serif;
-                font-weight: 700;
-                font-size: 18px;
-                text-transform: uppercase;
-        }
+.main-page {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.page-header {
+    padding-bottom: 24px;
+}
+
+.main-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+
+
+.raleway-uniquifier {
+    font-family: "Raleway", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
