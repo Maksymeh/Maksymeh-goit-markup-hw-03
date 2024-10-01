@@ -1,5 +1,7 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    text-decoration-color: #434455;
 }
 
 a {
@@ -29,11 +31,11 @@ ol {
     background-color: #2E2F42;
     color: #FFFFFF;
     text-align: center;
-    padding-bottom: 120px;
+   
 }
 
 .page-header {
-    padding-bottom: 24px;
+  
 }
 
 .main-button {
