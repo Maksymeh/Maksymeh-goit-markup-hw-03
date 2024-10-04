@@ -42,6 +42,10 @@ ul,ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.nav-item {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .navigation:focus {
     color: #404bbf
 }
