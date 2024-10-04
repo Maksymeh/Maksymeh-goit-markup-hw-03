@@ -10,6 +10,17 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: #404bbf;
+ 
+}
+a:focus {
+    color: #404bbf;
+}
+.contacts {
+    font-style: normal
+}
+
 ul,ol {
     list-style: none;
  
