@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #434455;
-    /* Колір тексту */
+  
 }
 
 a {
@@ -12,18 +12,15 @@ a {
 
 a:hover {
     color: #404bbf;
-    /* Колір при наведенні */
+ 
+}
+.contacts {
+    font-style: normal
 }
 
-.web {
-    color: #4D5AE5;
-    /* Колір логотипу */
-}
-
-ul,
-ol {
+ul,ol {
     list-style: none;
-    /* Прибираємо маркери списку */
+ 
 }
 
 .main-page {
@@ -71,10 +68,15 @@ ol {
 }
 
 .logo {
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.studio {
+color: #2e2f42;
 }
