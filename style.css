@@ -53,9 +53,24 @@ ul,ol {
 .navigation:focus {
     color: #404bbf
 }
+.our-services {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
 .main-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.main-button:hover {
+    background-color: #404BBF
+}
+.main-button:focus {
+    background-color: #404BBF;
 }
 
 .raleway-uniquifier {
