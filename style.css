@@ -1,86 +1,81 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
-    text-decoration-color: #434455;
+    color: #434455;
+    /* Колір тексту */
 }
 
 a {
     text-decoration: none;
     color: inherit;
-
 }
 
 a:hover {
     color: #404bbf;
+    /* Колір при наведенні */
 }
 
 .web {
     color: #4D5AE5;
+    /* Колір логотипу */
 }
-
 
 ul,
 ol {
     list-style: none;
+    /* Прибираємо маркери списку */
 }
 
 .main-page {
     background-color: #2E2F42;
     color: #FFFFFF;
     text-align: center;
-   
 }
-
-
 
 .main-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
 }
 
-
-
 .raleway-uniquifier {
     font-family: "Raleway", system-ui;
-    font-optical-sizing: auto;
     font-weight: 700;
-    font-style: normal;
 }
 
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
 }
 
 .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: normal;
 }
 
 .roboto-bold {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
 }
+
 .page-footer {
     background-color: #2E2F42;
     color: #FFFFFF;
 }
+
 .our-portfolio {
     text-align: center;
-
 }
+
 .our-team {
     background-color: #F4F4FD;
 }
+
 .logo {
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
