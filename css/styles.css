@@ -57,6 +57,8 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: flex;
+    margin-right: 76px;
+    gap: 40px;
 }
 
 .studio {
@@ -87,7 +89,7 @@ header {
 .contacts {
     font-style: normal;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 .address-list {
     display: flex;
