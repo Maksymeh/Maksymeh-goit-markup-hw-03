@@ -35,6 +35,8 @@ header {
 .page-nav {
     display: flex;
     align-items: center;
+    margin-right: 76px;
+    gap: 40px;
 }
 .container-header {
     display: flex;
@@ -78,6 +80,8 @@ header {
 .nav-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts {
