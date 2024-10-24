@@ -4,9 +4,16 @@ body {
     color: #434455;
 }
 
+.container {
+    margin-top: 0;
+    width: 1158px;
+    
+}
+
 a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 a:hover {
@@ -17,19 +24,30 @@ a:focus {
     color: #404bbf;
 }
 
-.contacts {
-    font-style: normal;
+.container-header {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
+        width: 1158px;
+        border-bottom: 2px solid #E7E9FC;
+ 
+       
 }
 
-ul,
-ol {
-    list-style: none;
+.logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: flex;
 }
 
-.main-page {
-    background-color: #2E2F42;
-    color: #FFFFFF;
-    text-align: center;
+.studio {
+    color: #2e2f42;
 }
 
 .navigation {
@@ -37,11 +55,8 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
-
-.nav-link {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    display: flex;
+    gap: 20px;
 }
 
 .nav-item {
@@ -49,16 +64,66 @@ ol {
     letter-spacing: 0.02em;
 }
 
+.nav-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts {
+    font-style: normal;
+    display: flex;
+    gap: 20px;
+}
+.address-list {
+    display: flex;
+    gap: 20px;
+}
 .address-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
+.main-page {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+.main-first-container {
+    padding-bottom: 188px;
+    padding-top: 188px;
+    background-color:#2E2F42;
+    padding-right: 472;
+    padding-left: 472;
+    text-align: center;
+}
+.main-second-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .main-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+
+.main-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #404BBF;
+}
+
+.main-button:focus {
+    background-color: #404BBF;
+}
+
+
 
 .our-services {
     font-weight: 500;
@@ -79,6 +144,10 @@ ol {
 .servise-info {
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.our-team {
+    background-color: #F4F4FD;
 }
 
 .our-team-title {
@@ -108,47 +177,7 @@ ol {
     letter-spacing: 0.02em;
 }
 
-.main-button {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
 
-.main-button:hover {
-    background-color: #404BBF;
-}
-
-.main-button:focus {
-    background-color: #404BBF;
-}
-
-.raleway-uniquifier {
-    font-family: "Raleway", system-ui;
-    font-weight: 700;
-}
-
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-}
-
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-}
-
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-}
-
-.page-footer {
-    background-color: #2E2F42;
-    color: #FFFFFF;
-}
 
 .our-portfolio-title {
     font-size: 36px;
@@ -174,22 +203,9 @@ ol {
     color: #434455;
 }
 
-.our-team {
-    background-color: #F4F4FD;
-}
-
-.logo {
-    color: #4d5ae5;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.studio {
-    color: #2e2f42;
+.page-footer {
+    background-color: #2E2F42;
+    color: #FFFFFF;
 }
 
 .logo-footer {
@@ -210,4 +226,29 @@ ol {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.raleway-uniquifier {
+    font-family: "Raleway", system-ui;
+    font-weight: 700;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+ul,
+ol {
+    list-style: none;
 }
