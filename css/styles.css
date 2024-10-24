@@ -29,8 +29,6 @@ a:focus {
 }
 header {
     border-bottom: 1px solid #e7e9fc;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .page-nav {
     display: flex;
@@ -42,6 +40,8 @@ header {
         align-items: center;
         margin-top: 0;
         width: 1158px;
+            padding-left: 15px;
+                padding-right: 15px;
 }
 
 .logo {
@@ -58,7 +58,9 @@ header {
 .studio {
     color: #2e2f42;
 }
-
+.nav {
+    display:flex;
+}
 .navigation {
     font-weight: 500;
     line-height: 1.5;
