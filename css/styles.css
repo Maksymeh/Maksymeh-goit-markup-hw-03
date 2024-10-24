@@ -60,9 +60,7 @@ header {
 .studio {
     color: #2e2f42;
 }
-.nav {
-    display:flex;
-}
+
 .navigation {
     font-weight: 500;
     line-height: 1.5;
