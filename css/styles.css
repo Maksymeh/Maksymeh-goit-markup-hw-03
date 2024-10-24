@@ -266,4 +266,5 @@ header {
 ul,
 ol {
     list-style: none;
+    gap: 40px;
 }
