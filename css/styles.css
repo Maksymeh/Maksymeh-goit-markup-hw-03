@@ -5,8 +5,9 @@ body {
 }
 
 .container {
-    margin-top: 0;
+    margin: 0 auto;
     width: 1158px;
+    display: flex;
     
 }
 
@@ -14,6 +15,9 @@ a {
     text-decoration: none;
     color: inherit;
     
+}
+img {
+    display: block;
 }
 
 a:hover {
@@ -23,16 +27,15 @@ a:hover {
 a:focus {
     color: #404bbf;
 }
-
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .container-header {
     display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 0;
         width: 1158px;
-        border-bottom: 2px solid #E7E9FC;
- 
-       
 }
 
 .logo {
