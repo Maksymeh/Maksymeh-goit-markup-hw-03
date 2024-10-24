@@ -71,7 +71,7 @@ header {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .nav-item {
@@ -269,4 +269,7 @@ ul,
 ol {
     list-style: none;
     gap: 40px;
+}
+ul li:last-child {
+    margin-right: 0;
 }
