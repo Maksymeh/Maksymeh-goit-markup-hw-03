@@ -7,9 +7,8 @@ body {
 .container {
     margin: 0 auto;
     width: 1158px;
-    display: flex;
     padding-left: 15px;
-        padding-right: 15px;
+    padding-right: 15px;
     
 }
 
@@ -40,12 +39,7 @@ header {
 }
 .container-header {
     display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 0;
-        width: 1158px;
-            padding-left: 15px;
-                padding-right: 15px;
+    align-items: center;
 }
 
 .logo {
