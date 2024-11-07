@@ -164,15 +164,19 @@ header {
 }
 
 .service-list-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
-.our-services .visually-hidden{
+.our-services {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.visually-hidden {
+     display: none;
 }
 
 .service-title {
