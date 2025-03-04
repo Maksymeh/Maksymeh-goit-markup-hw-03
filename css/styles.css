@@ -161,12 +161,12 @@ header {
 .service-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
+    
     
 }
 
 .service-list-item {
-  
+    flex-basis: calc((100% - 72px) / 4);
 }
 .service-list-item:first-child {
     flex-basis: calc((100% - 72px) / 4);
