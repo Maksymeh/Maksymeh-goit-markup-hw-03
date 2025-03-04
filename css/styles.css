@@ -166,6 +166,9 @@ header {
 }
 
 .service-list-item {
+  
+}
+.service-list-item:first-child {
     flex-basis: calc((100% - 72px) / 4);
 }
 
