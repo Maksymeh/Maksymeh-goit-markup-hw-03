@@ -114,8 +114,6 @@ header {
     padding-bottom: 188px;
     padding-top: 188px;
     background-color:#2E2F42;
-    padding-right: 472;
-    padding-left: 472;
     text-align: center;
 }
 .main-second-container {
@@ -160,6 +158,7 @@ header {
 
 .service-list {
     display: flex;
+    gap: 24px; 
     
 }
 
