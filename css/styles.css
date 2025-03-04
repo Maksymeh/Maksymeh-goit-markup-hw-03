@@ -160,14 +160,10 @@ header {
 
 .service-list {
     display: flex;
-    gap: 24px;
-    
+    gap: 24px; 
     
 }
 
-.service-list-item-first {
-    width: calc((100% - 3 * 24px) / 4);
-}
 .service-list-item {
     width: calc((100% - 3 * 24px) / 4);
 }
