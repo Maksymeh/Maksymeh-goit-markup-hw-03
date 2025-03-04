@@ -12,6 +12,27 @@ body {
     
 }
 
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+li:last-child {
+    margin-right: 0;
+    gap: 40px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -307,12 +328,3 @@ header {
     font-weight: 700;
 }
 
-ul,
-ol {
-    list-style: none;
-    gap: 40px;
-}
-ul, ol, li:last-child {
-    margin-right: 0;
-    gap: 40px;
-}
