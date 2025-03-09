@@ -26,13 +26,6 @@ ol {
     margin: 0;
 }
 
-ul,
-ol,
-li:last-child {
-    margin-right: 0;
-    gap: 40px;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -56,12 +49,13 @@ header {
 .page-nav {
     display: flex;
     align-items: center;
-    margin-right: 76px;
+    margin-right: auto;
     gap: 40px;
 }
 .container-header {
     display: flex;
     align-items: center;
+    height: 72px;
 }
 
 .container-main {
@@ -105,8 +99,12 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 66px;
+    margin-right: 40px;
 }
 
+.nav-item:last-child {
+    margin-right: 0;
+}
 .nav-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -141,6 +139,7 @@ header {
     color: #FFFFFF;
     padding-top: 188px;
     padding-bottom: 188px;
+    
 }
 .main-first-container {
     background-color:#2E2F42;
@@ -154,10 +153,12 @@ header {
 .main-title {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    padding-bottom: 48px;
 }
 
 .main-button {
@@ -196,8 +197,12 @@ header {
 
 .service-list-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
+    margin-right: 24px;
 }
 
+.service-list-item:last-child {
+    margin-right: 0;
+}
 .our-services {
     font-weight: 500;
     font-size: 20px;
