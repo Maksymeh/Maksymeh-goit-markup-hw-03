@@ -60,9 +60,7 @@ header {
 .container-header {
     display: flex;
     align-items: center;
-    padding-bottom: 24px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 24px 15px;
 }
 
 .container-main {
@@ -70,11 +68,11 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-        width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        flex-direction: column;
+    width: 1158px;
+    padding: 0 15px;
+    flex-direction: column;
 }
+
 
 .logo {
     color: #4d5ae5;
