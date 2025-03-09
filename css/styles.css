@@ -199,9 +199,6 @@ header {
     flex-basis: calc((100% - 72px) / 4);
  }
 
-.service-list-item:last-child {
-    margin-right: 0;
-}
 .our-services {
     font-weight: 500;
     font-size: 20px;
