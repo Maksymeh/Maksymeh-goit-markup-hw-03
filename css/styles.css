@@ -196,9 +196,9 @@ header {
 }
 
 .service-list-item {
-    flex-basis: calc((100% - 72px) / 4));
     margin-right: 24px;
-}
+    flex-basis: calc((100% - 72px) / 4);
+ }
 
 .service-list-item:last-child {
     margin-right: 0;
