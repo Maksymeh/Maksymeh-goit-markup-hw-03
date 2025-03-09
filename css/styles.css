@@ -64,6 +64,8 @@ header {
     display: flex;
     align-items: center;
     padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .container-main {
