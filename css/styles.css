@@ -50,8 +50,6 @@ header {
     display: flex;
     align-items: center;
     margin-right: auto;
-    margin-top: 12px;
-    margin-bottom: 12px;
 }
 .container-header {
     display: flex;
@@ -101,6 +99,8 @@ header {
     letter-spacing: 0.02em;
     font-weight: 66px;
     margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-item:last-child {
