@@ -50,12 +50,13 @@ header {
     display: flex;
     align-items: center;
     margin-right: auto;
-    gap: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 .container-header {
     display: flex;
     align-items: center;
-    height: 72px;
+    height: auto;
 }
 
 .container-main {
@@ -108,8 +109,6 @@ header {
 .nav-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts {
@@ -126,7 +125,6 @@ header {
 }
 .address-list {
     display: flex;
-    gap: 20px;
 }
 .address-item {
     line-height: 1.5;
@@ -158,23 +156,25 @@ header {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
+
 
 .main-button {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-}
-
+        background-color: #4d5ae5;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        display: block;
+        min-width: 169px;
+        padding: 16px 32px;
+        border: none;
+        border-radius: 4px;
+    } 
+        
 .main-button:hover {
     background-color: #404BBF;
 }
@@ -198,7 +198,7 @@ header {
 .service-list-item {
     flex-basis: calc((100% - 72px) / 4);
  }
-
+;
 .our-services {
     font-weight: 500;
     font-size: 20px;
