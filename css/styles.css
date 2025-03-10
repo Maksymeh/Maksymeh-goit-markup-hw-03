@@ -97,15 +97,14 @@ header {
 .nav-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-weight: 66px;
     margin-right: 40px;
-    padding: 24px 0;
 }
 
 .nav-item:last-child {
     margin-right: 0;
 }
 .nav-link {
+    display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
